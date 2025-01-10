@@ -9,52 +9,55 @@
    
 </head>
 <body>
-    <div>
-        <button class="flex items-center p-4 text-lg font-bold" onclick="window.location.href='index.html'">
-            <svg class="h-5 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
-            </svg>
-            Home
-        </button>
-    </div>
-    <div class="flex flex-col justify-center items-center h-screen bg-indigo-900">
-        <h1 class="text-4xl font-semibold p-4 text-white">Headphone Mix</h1>
-        <div class="flex flex-col w-3/4 bg-white gap-8 p-6 rounded-2xl">
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Click</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Backing Track</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Drums</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Keys</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Bass</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Guitar</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">Lead Vocals</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">BG Vocals 1</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
-            </div>
-            <div class="slider-container">
-                <label for="slider1" class="font-bold">BG Vocals 2</label>
-                <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+    <div class="h-screen">
+        <div class="bg-indigo-900">
+            <button class="flex items-center p-4 text-lg font-bold text-white" onclick="window.location.href='index.html'">
+                <svg class="h-5 pr-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
+                Home
+            </button>
+        </div>
+
+        <div class="flex flex-col items-center h-screen bg-indigo-900 p-4">
+            <h1 class="text-4xl font-semibold p-4 text-white">Headphone Mix</h1>
+            <div class="flex flex-col w-full sm:w-3/4 bg-white gap-8 p-6 rounded-2xl">
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Click</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Backing Track</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Drums</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Keys</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Bass</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Guitar</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">Lead Vocals</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">BG Vocals 1</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
+                <div class="slider-container">
+                    <label for="slider1" class="font-bold">BG Vocals 2</label>
+                    <input type="range" id="slider1" class="slider w-full" min="0" max="100" value="50">
+                </div>
             </div>
         </div>
     </div>
