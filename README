@@ -1,0 +1,6 @@
+We are building an application where multiple bandmembers can control their individual headphone mixes in Ableton Live simultaneously.
+
+Neccessary technologies include:
+
+- Ableton Live (11 or later)
+- Max4Live
